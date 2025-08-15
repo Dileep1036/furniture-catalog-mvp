@@ -1,4 +1,4 @@
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "../components/ProductCard.js";
 
 const products = [
   { id: 1, name: "Nordic Oak Dining Table", image: "/images/sample-table.jpg", price: 24999 },

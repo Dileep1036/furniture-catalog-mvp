@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "../components/ProductCard.js";
 
 const featured = [
   { id: 1, name: "Nordic Oak Dining Table", image: "/images/sample-table.jpg", price: 24999 },
