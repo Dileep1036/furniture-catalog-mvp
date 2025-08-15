@@ -13,7 +13,6 @@ export default function Products() {
   return (
     <div className="container max-w-6xl py-12">
       <h1 className="text-3xl font-semibold">Products</h1>
-      <p className="text-slate-600 mt-2">Drop in your own images & names in <code>/pages/products.js</code>.</p>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {products.map(p => (
           <ProductCard key={p.id} product={p} />
